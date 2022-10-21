@@ -17,7 +17,7 @@ if ($_SESSION == NULL) {
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/icons/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/dashboard.css">
-    <title>ระบบหลังบ้าน</title>
+    <title>แอดมิน</title>
   </head>
   <body>
     <?php include 'include/header.php'; ?>
