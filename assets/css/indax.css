@@ -1,0 +1,208 @@
+* {
+    font-family: 'Mitr', sans-serif;
+}
+
+:root {
+    --orange: #EF774B;
+}
+
+.image-hotel {
+    height: 50vh;
+    width: 100%;
+}
+
+
+.pic-cafa {
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 400px;
+    width: 500px;
+    margin-left: 60%;
+}
+
+.colpic {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+h5 {
+    color: #000;
+
+}
+
+/* container Search */
+.container {
+    position: absolute;
+    background-color: #fff;
+    max-width: 100%;
+    height: fit-content;
+    top: 54vh;
+    left: 7%;
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: -1px 6px 5px #F4F6F6,
+        0px -1px 4px;
+
+}
+
+.col-md-3 {
+    padding: 10px 5px;
+}
+
+p {
+    color: #EF774B;
+    font-size: 18px;
+
+}
+
+.btnsearch {
+    border-left: 1px solid rgb(221, 221, 221);
+    background-color: #EF774B;
+    color: #fff;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+h3 {
+   margin-top: 10%;
+    margin-left: 5%;
+}
+
+/* card public relations */
+.preview{
+    margin-top: 8%;
+}
+h2 {
+   
+    text-align: center;
+}
+
+
+.news {
+    padding: 5%;
+    max-width: 50%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 25%;
+    clear: both;
+}
+
+.active{
+    max-width: 100%;
+}
+
+/* card room */
+.card {
+    margin-top: 5%;
+    left: 15vh;
+    max-width: 85%;
+    border-radius: 10%;
+    background: #e0e0e0;
+    
+}
+
+.room-detail {
+    padding: 20px 50px !important;
+    height: 200px;
+}
+
+.room {
+    width: 500px;
+    height: 250px;
+}
+
+.title {
+    color: #000;
+    margin-top: -10px;
+    text-align: center;
+
+}
+
+.card-t {
+    color: #000;
+    font-size: 16px;
+}
+
+.img-fluid {
+    height: 100%;
+
+}
+
+.subroom {
+   
+    width: 150px;
+    height: 50px;
+    margin-left: 80px;
+    border-radius: 10px;
+    border: 1px solid #EF774B;
+    background: #EF774B;
+    color: #fff;
+}
+
+
+/* mapvilla */
+.Villa {
+    max-width: 100;
+    margin-top: 10%;
+    background-color: #E5E7E9;
+    height: 600px;
+
+}
+
+.mapvilla {
+    margin-top: 0.5%;
+    margin-left: 10%;
+}
+.mapvilla iframe{
+    height: 500px;
+    width: 40%;
+}
+
+.nearbyplaces {
+   float: right;
+   margin-right: 20%;
+}
+
+/* About the hotel
+.card-img {
+    margin-top: 0px;
+    height: 50%;
+}
+
+.abouthotel {
+    color: #000;
+} */
+
+footer{
+    position: relative;
+    background-color: rgb(166, 116, 50);
+    color: #fff;
+    padding: 5% ;
+}
+footer a{
+color: #fff;
+}
+footer .footer-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+}
+footer .footer-box .footer-item,footer .footer-box .footer-item ul{
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and (max-width: 775px) {
+    .news {
+      width: 96%;
+      float: none;
+    }
+
+    body{
+        margin: 10px 15px !important;
+        
+    }
+  }

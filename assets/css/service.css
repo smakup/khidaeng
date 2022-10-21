@@ -1,0 +1,24 @@
+* {
+    font-family: 'Mitr', sans-serif;
+}
+body{
+    padding: 20px !important;
+    margin: 30px 25px 10px 130px !important;
+}
+#myTable{
+    background-color: #EF774B;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.addser{
+    float: right;
+    width: 150px;
+    height: 45px;
+    font-size: 30px;
+}
+.dataTables_wrapper{
+    margin-top: 20px;
+}
